@@ -116,7 +116,7 @@ a:link, a:visited {
 
 .header-container .logo {
   display: block;
-  wdith: 320px;
+  width: 340px;
   text-align: center;
   padding-top: 30px;
   margin: 0 auto;
@@ -136,7 +136,7 @@ a:link, a:visited {
   top: 50px;
   right: 0;
   z-index: 99999999;
-
+  text-align: center;
 }
 
 .footer {
