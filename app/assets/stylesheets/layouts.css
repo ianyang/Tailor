@@ -115,13 +115,10 @@ a:link, a:visited {
 }
 
 .header-container .logo {
-  width: 960px;
   display: block;
+  wdith: 320px;
   text-align: center;
   padding-top: 30px;
-}
-
-.header-container .logo h1 {
   margin: 0 auto;
   font-size: 50px;
   font-family: 'Open Sans', sans-serif;

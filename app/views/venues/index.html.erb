@@ -1,5 +1,5 @@
 <div class="fixed-top">
-  
+
   <div class="venue-menu-container">
 
     <div class="venue-menu">
@@ -41,8 +41,8 @@
   </section>
 </div>
 
-<%= javascript_tag do %>
+<script>
   var categories = <%= @category.to_json.html_safe %>
-<% end %>
+</script>
 
 <%= javascript_include_tag "venue.js" %>
